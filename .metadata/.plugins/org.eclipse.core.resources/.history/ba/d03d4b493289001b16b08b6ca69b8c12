@@ -1,0 +1,23 @@
+package com.class16;
+
+public class Task {
+
+String a="Is it raining?Is it saturday?Is it  java class?";
+String[] b=a.split("[?]");
+
+for(String c:b) {
+	System.out.println(c);
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,19 @@
+package com.class16;
+
+public class SplitDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String var1 ="Today is wednesday";
+		String[] strarr=var1.split(" ");
+		for(String word:strarr) {
+			System.out.println(word);
+		}
+		
+		
+		
+		
+
+	}
+
+}

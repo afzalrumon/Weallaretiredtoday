@@ -1,0 +1,29 @@
+package com.class17;
+
+public class StringBuildeerVsString {
+
+	public static void main(String[] args) {
+		String v1="Rumon;";
+		
+	StringBuilder s=new StringBuilder(v1);	
+	StringBuilder s1=new StringBuilder("Rumon1");
+	StringBuilder s2=new StringBuilder("Rumon11");
+	StringBuilder s3=new StringBuilder("Rumon111");
+	
+		
+		System.out.println(s1.reverse());
+		v1=s.toString();
+		System.out.println(v1);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

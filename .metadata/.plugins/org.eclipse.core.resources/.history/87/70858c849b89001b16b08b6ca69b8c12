@@ -1,0 +1,32 @@
+package com.class16;
+
+public class Employee {
+	int eId;
+	double salary;
+	void ceo() {
+		System.out.println("CEO of Syntax Sumair");
+	}
+	public static void main(String[] args) {
+		
+	Employee asghar=new Employee();
+	asghar.eId=0001;
+	asghar.salary=150000;
+	asghar.ceo();
+	System.out.println(asghar);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

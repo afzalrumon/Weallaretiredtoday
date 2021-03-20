@@ -1,0 +1,17 @@
+package com.class16;
+
+public class ReplaceAllDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String var1="Syntax is best34343. Batch nine is  great";
+		//System.out.println(var1.replaceAll("34343", ""));
+		System.out.println(var1.replaceAll("[0-9]", ""));
+		var1="087667678909yfdrtfhuFTGGHUG";
+		System.out.println(var1.replaceAll("[a-zA-Z]", ""));
+		var1="76478288ughb bn hdjhJHBHKH%%^&&^%$#";
+		System.out.println(var1.replaceAll("![a-z]", " "));
+
+	}
+
+}
